@@ -1,0 +1,1156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /*background-color: #FFFFFF;*/
+    margin-top: 39px;
+    background-image: url('../images/Decore2.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.container{
+    margin-left: 90px;
+}
+header {
+    padding-left: 152px;
+    padding-right: 99px;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 103.7px;
+    height: 30.68px;
+}
+.toggle{
+    display: none;
+}
+label{
+    display: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3406px;
+    line-height: 20px;
+    color: #212832;    
+}
+li a:hover{
+    transform: scale(2); /*zasto nece?*/
+    color: #df6951;
+}
+li:not(li.btna){
+    margin-left: 55px;
+}
+li:nth-child(5){
+    padding-left: 20px;
+    margin-right: 55px;
+}
+li.btna{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 8px 20px;
+}
+li img{
+    width: 8.12px;
+    height: auto;
+}
+.intro{
+    display: flex;
+    padding-left: 144px;
+    padding-right: 99px;
+}
+.txt_intro{
+    margin-top: 135px;
+    position: inherit;
+    z-index: 2;
+    width: 50%;
+}
+h3{
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.txt_intro h3{
+    color: rgb(160, 68, 47); 
+    /*boja, kako staviti boju i dodati 20% crne*/
+    text-transform: uppercase;
+    text-shadow: 0px 4px 3px rgb(204, 193, 193);
+    text-indent: 15px;
+    font-size: 18.0478px;
+    line-height: 27px;
+}
+.line{
+    position: absolute;
+    z-index: 1;
+    left: 27%;
+    margin-top: 80px;
+}
+h1{
+    position: relative;
+    z-index: 2;
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75.8006px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    color: #181E4B;
+    margin-top: 21.96px;
+    margin-bottom: 25.2px;
+}
+/*h1::after{
+    content: url('assets/images/Decore1.png');
+}*/
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4382px;
+    line-height: 27px;
+    color: #5E6282;
+}
+.txt_intro p{
+    width: 80%;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28.56px;
+    margin-bottom: 185px;
+}
+.btn1{
+    width: 156.41px;
+    height: 50.4px;
+    background: #F1A501;
+    box-shadow: 0px 4px 3px #ccc1c1;
+
+    border-radius: 9.02388px;
+
+    box-sizing: border-box;
+    padding: 17px 35px 12px 12px ;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.243px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 39.7px;
+}
+.btn1:hover{
+    background-color: #df6951;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.btn2:hover{
+    box-shadow: 0px 2px 10px #ccc1c1;
+    border-radius: 9px;
+}
+.play_btn{
+    display: flex;
+    background: #df6951;
+    border-radius: 50%;
+    width: 46.92px;
+    height: 43.68px;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    margin-right: 20px;
+
+    box-shadow: 0px 4px 3px rgb(204, 193, 193);
+}
+.txt_btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.3406px;
+    line-height: 23px;
+    color: #686D77;
+    text-shadow: 0px 4px 3px rgb(204, 193, 193);;
+    border-radius: 9.02388px;
+}
+.traveller{
+    margin-top: 20px;
+    margin-left: -200px;
+    position: absolute;
+    z-index: 1;
+    width: 690.33px;
+    height: 700px;
+}
+.services{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.243px;
+    line-height: 24px;
+    color: #5E6282;
+}
+.services h4{
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45.1194px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #14183E;
+    text-align: center;
+    margin-top: 9.39px;
+}
+.list_ser{
+    margin-top: 98.11px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 138.97px;
+    margin-right: 177.77px;
+}
+.ls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ls:hover{
+    transform: scale(1.25);
+    transition: 0.5s ease;
+}
+.ls:not(:last-of-type){
+    margin-right: 75px;
+}
+.ls img{
+    align-items: center;
+    width: 83.02px;
+    height: 70.39px;
+}
+h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.0478px;
+    line-height: 25px;
+    text-align: center;
+    color: #1E1D4C;
+    text-align: center;
+    margin-top: 28px;
+}
+.ls p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4382px;
+    line-height: 23px;
+    text-align: center;
+    color: #5E6282;;
+    margin-top: 12.9px;
+}
+.destinations{ 
+    margin-top: 140.77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list_destinations{
+    /*zasto mi ne prihvaca margine containera i maxw?*/
+    margin-top: 54.8px;
+    display: flex;
+}
+.ld{
+    position: relative;
+    z-index: 1;
+}
+.ld img{
+    border-radius: 21.66px;
+}
+.ld:not(:last-of-type){
+    margin-right: 50px;
+}
+.ld:hover{
+    box-shadow: 10px 10px 10px #686D77;
+}
+.ld_txt{
+    background-color: white;
+    width: 290px;
+    height: 125px;
+    border-bottom-left-radius: 21.66px;
+    border-bottom-right-radius: 21.66px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 298px;
+    left: 0%;
+    display: inline-block;
+}
+.ld_txt div{
+    width: auto;
+    margin-top: 17px;
+    margin-left: 18.05px;
+}
+.ld p:nth-child(1){
+    padding-top: 24.36px;
+    padding-left: 18.05px;
+    float: left;
+    width: 60%;
+}
+.ld p:nth-child(2){
+    margin-top: 24.36px;;
+    float: right;
+    width: 30%;
+}
+.ld p:last-of-type{
+    width: 50%;
+    color: #df6951;
+}
+.booking{
+    margin-top: 168px;
+    display: flex;
+}
+.txt_booking{
+    margin-right: 106.6px;
+}
+.title_booking{
+    margin-bottom: 29.28px;
+}
+.title_booking h4, .title_booking h2{
+    text-align: start;
+}
+.steps_booking{
+    display: flex;
+    color: #5E6282;
+}
+.steps_booking:hover{
+    box-shadow: 2px 5px 5px#ccc1c1;
+}
+.steps_booking:not(:last-of-type){
+    margin-bottom: 43.41px;
+}
+.steps_booking img{
+    margin-right: 19px;
+}
+h6{
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 14.44px;
+    line-height: 18px;
+    margin-bottom: 3.66px;
+}
+.steps_booking p{
+    font-family: Poppins;
+    font-style: Regular;
+    font-size: 14.44px;
+    line-height: 18px;
+}
+.testimonials{
+    display: flex;
+    margin-top: 180.57px;
+    margin-right: 80.31px;
+}
+.testimonials h4{
+    text-transform: uppercase;
+}
+.testimonials h2{
+    margin-right: 78.58px;
+    text-align: start;
+    width: 369px;
+}
+.dots{
+    display: flex;
+    margin-top: 75.31px;
+}
+.dots img{
+    margin-right: 23.46px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.dots img:hover{
+    opacity: 1;
+}
+.img_testimonials{
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+}
+Mike{
+    position: absolute;
+}
+.testimonialss{
+    width: 454.8px;
+    height: 221.09px;  
+    border: none;
+    border-radius: 9.04px;
+    box-shadow: 0px 17px 15px #ecedf3;
+    padding-left: 30.68px;
+    padding-right: 61.36px;
+}
+.firstw{
+    position: relative;
+    z-index: 2;
+    margin-left: 33px;
+    margin-right: 102.87px;
+    background-color: white;
+}
+.testimonialss p{
+    margin-bottom: 30.31px;
+}
+.secondw{
+    position: relative;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arrow1{
+    margin-bottom: 50.89px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 86.63px;
+    margin-right: 163.33px;
+    margin-bottom: 111.9px;
+}
+.logos img{
+    filter: grayscale(100%);
+}
+.logos img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.25);
+    border-radius: 9.02px;
+    box-shadow: 0px 20px 20px rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe{
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 121.82px;
+    padding-bottom: 70.39px;
+}
+.subscribe p{
+    font-family: Poppins;
+    font-style: 600;
+    font-size: 29.78px;
+    line-height: 48.73px;
+    color: #5E6282;
+    margin-bottom: 66.23px;
+    padding-top: 71.29px;
+    width: 70%;
+}
+.subscribe > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_sub{
+    width: 379.91px;
+    height: 61.36px;
+    border-radius: 9.02px;
+    border: none;
+    background-color: white;
+    color: #5E6282;
+    margin-right: 21.66px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    /*znak maila fali*/
+    background-image: url('../images/email.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.sub_btn{
+    background-color: #FF7D68;
+    border-radius: 9.02px;
+    width: 162.43px;
+    height: 61.36px;
+    color: white;
+    font-family: Open Sans;
+    font-style: 600px;
+    font-size: 15.34px;
+    line-height: 20.89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub_btn:hover{
+    box-shadow: 2px 5px 5px #ccc1c1;
+}
+footer{
+    margin-top: 168.75px;
+    margin-bottom: 70.63px;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 175.06px;
+}
+.Company_desc p:first-of-type{
+    font-family: 'Poppins';
+    font-style: 500;
+    font-size: 39.71px;
+    line-height: 60px;
+    color: #181E4B;
+}
+.f1 p{
+    font-family: 'Poppins';
+    font-style: 500;
+    margin-bottom: 12px;
+}
+.Company_desc p:last-of-type{
+    font-size: 11.73px;
+    line-height: 15px;
+    width: 187px;
+}
+.f1 h3{
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.CCM p, .social p{
+    font-size: 16.24px;
+    line-height: 20.22px;
+}
+.CCM p:hover{
+    color: black;
+}
+.f1 img:hover{
+    transform: scale(1.10);
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    margin-top: 75.65px;
+}
+@media screen and (max-width: 1161px){
+    li:not(li.btna){
+        margin-left: 45px;
+    }
+    li:nth-child(5){
+        padding-left: 17px;
+        margin-right: 45px;
+    }
+    .intro{
+        padding-left: 120px;
+    }
+    .line{
+        transform: scale(0.80) ;
+        left: 25%;
+    }
+    h1{
+        font-size: 60px;
+        line-height: 70px; 
+    }
+    .traveller{
+        transform: scale(0.80);
+    }
+    h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .container{
+        margin-left: 90px;
+    }
+    .ld{
+        transform: scale(0.8);
+    }
+    .ld_img{
+        transform: scale(0.8);
+    }
+    .txt_booking{
+        margin-right: 50px;
+    } 
+    .firstw{
+        margin-right: 60px;
+    }
+    .testimonialss {
+        width: 380px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1072px){
+    .ld:not(:last-of-type){
+        margin-right: 30px;
+    }
+    li:not(li.btna){
+        margin-left: 35px;
+    }
+    li:nth-child(5){
+        padding-left: 15px;
+        margin-right: 35px;
+    }
+    .img_booking{
+        transform: scale(0.80);
+    }
+    .img_testimonials{
+        transform: scale(0.8);
+    }
+    .txt_booking{
+        margin-right: 0px;
+    }
+    .testimonials h2{
+        margin-right: 0px;
+        width: 250px;
+    }
+    .list_ser{
+        margin-left: 90px;
+        margin-right: 120px;
+    }
+}
+@media screen and (max-width: 1004px){
+    header{
+        padding-left: 90px;
+        padding-right: 60px;
+    }
+    li:not(li.btna){
+        margin-left: 27px;
+    }
+    li:nth-child(5){
+        padding-left: 12px;
+        margin-right: 27px;
+    }
+    .intro{
+        padding-left: 90px;
+        padding-right: 70px;
+    }
+    .txt_intro h3{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .traveller{
+        transform: scale(0.65);
+        margin-left: -150px;
+    }
+    .ld{
+        transform: scale(0.6);
+    }
+    .testimonials h2{
+        width: auto;
+    }
+    .subscribe p{
+        font-size: 24px;
+    }
+    .input_sub{
+        width: 300px;
+        height: 45px;
+    }
+    .img_booking img{
+        transform: scale(0.9);
+    }
+    .testimonials{
+        margin-right: 30px;
+    }
+    .img_testimonials{
+        padding-right: 0px;
+    }
+    .logos{
+        margin-right: 90px;
+    }
+    .subscribe{
+        margin-right: 90px;
+    }
+    .container{
+        margin-left: 60px;
+    }
+    .f1{
+        padding-right: 90px;
+    }
+}
+@media screen and (max-width: 882px){
+    header{
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    li:not(li.btna){
+        margin-left: 20px;
+    }
+    li:nth-child(5){
+        padding-left: 10px;
+        margin-right: 20px;
+    }
+    .intro{
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    h1{
+        font-size: 55px;
+        line-height: 70px;
+    }
+    h6{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .ld:not(:last-of-type){
+        margin-right: 0px;
+    }
+    .list_ser{
+        margin-left: 60px;
+        margin-right: 80px;
+    }
+    .subscribe{
+        margin-right: 70px;
+    }
+    .f1{
+        padding-right: 70px;
+    }
+    .Company_desc p:first-of-type {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .Company_desc p:last-of-type {
+        width: 100px;
+    }
+    .f1 h3{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 815px){
+    .txt_intro h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .line {
+        transform: scale(0.5);
+        left: 13%;
+        margin-top: 60px;
+    }
+    p{
+        font-size: 14.4382px;
+    }
+    .btn1{
+        width: 120px;
+        height: auto;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 17px 23px 12px 9px;
+    }
+    .play_btn{
+        width: 35px;
+        height: 34px;
+        margin-right: 12px;
+    }
+    .txt_btn2{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .destinations{ 
+        margin-top: 110px;
+    }
+    .list_destinations{
+        display: block;
+    }
+    .ld{
+        transform: scale(0.8);
+    }
+    .booking{
+        margin-top: 100px;
+    }
+    .ls:not(:last-of-type) {
+        margin-right: 45px;
+    }
+    .firstw{
+        margin-right: 50px;
+    }
+    .testimonialss {
+        width: 320px;
+        height: 150px;
+    }
+    .input_sub {
+        width: 220px;
+    }
+    .f1 {
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 742px){
+    .logo{
+        width: 80px;
+        height: 24px;
+    }
+    li a{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    li:not(li.btna) {
+        margin-left: 14px;
+    }
+    li.btna{
+        padding: 7px 12px;
+    }
+    .txt_intro {
+        margin-top: 100px;
+    }
+    .txt_intro h3{
+        text-indent: 7px;
+    }
+    .traveller {
+        transform: scale(0.50);
+        margin-left: -200px;
+    }
+    .services {
+        margin-top: 65px;
+    }
+    .list_ser {
+        margin-top: 60px;
+    }
+    .list_destinations {
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .ls:not(:last-of-type) {
+        margin-right: 20px;
+    }
+    .booking {
+        margin-top: 50px;
+    }
+    .steps_booking p{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .logos{
+        margin-bottom: 60px;
+    }
+    .logos img{
+        transform: scale(0.6);
+    }
+    .subscribe p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .input_sub {
+        width: 180px;
+        height: 38px;
+    }
+    .sub_btn{
+        width: 130px;
+        height: 38px;  
+        font-size: 13px;  
+    }
+    .f1 h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .CCM p, .social p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .Company_desc p:first-of-type {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .f1 img{
+        transform: scale(0.7);
+    }
+}
+@media screen and (max-width: 655px){
+    
+    .txt_intro {
+        margin-top: 80px;
+    }
+    li a {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    li.btna{
+        padding: 6px 10px;
+    }
+    .txt_intro h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .btn1 {
+        width: 100px;
+        height: auto;
+        font-size: 11px;
+        line-height: 13px;
+        padding: 12px 17px 9px 7px;
+        margin-right: 30px;
+    }
+    .play_btn {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .txt_btn2 {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .traveller {
+        transform: scale(0.5);
+        margin-left: -250px;
+        top: -50px;
+    }
+    .ld_txt p{
+        font-size: 14px;
+    }
+    .list_ser {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .testimonialss {
+        width: 270px;
+        height: 120px;
+        padding-left: 25px;
+        padding-right: 40px;
+    }
+    .secondw{
+        margin-top: -70px;
+    }
+    .subscribe{
+        padding-bottom: 40px;
+    }
+    .subscribe p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 40px;
+        padding-top: 50px;
+    }
+    .firstw {
+        margin-right: 30px;
+    }
+    .Company_desc p:last-of-type {
+        font-size: 10px;
+        line-height: 12px;
+        width: 100px;
+    }
+    .f1 h3 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .CCM p, .social p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+@media screen and (max-width: 601px){
+    ul{
+        display: none;
+    }
+    .toggle{
+        display: none;
+    }
+    label{
+        color: #212832;
+        cursor: pointer;
+        display: inline-block;
+        font: 40px;
+        padding-right: 8px;
+        transition: all .25s ease;
+    }
+    label:hover{
+        color: #df6951;
+    }
+    .traveller {
+        transform: scale(0.4);
+        margin-left: -220px;
+    }
+    .container {
+        margin-left: 40px;
+    }
+    .img_booking {
+        transform: scale(0.7);
+    }
+}
+@media screen and (max-width: 597px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt_intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .line{
+        margin-top: 80px;
+    }
+    .btns{
+        margin-bottom: 120px;
+    }
+    .traveller{
+        position: relative;
+        margin-left: -170px;
+        transform: scale(0.8);
+    }
+    .ls{
+        margin-top: 40px;
+    }
+    .list_ser{
+        flex-direction: column;
+    }
+    .list_destinations{
+        flex-direction: column;
+    }
+    .booking{
+        flex-direction: column;
+    }
+    .img_booking{
+        transform: scale(1);
+        margin-top: 50px;
+    }
+    .img_booking img{
+        transform: scale(1);
+    }
+    .testimonials{
+        flex-direction: column;
+    }
+    .testimonials_txt1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt_testimonials{
+        margin-top: 60px;
+    }
+    .img_testimonials {
+        transform: scale(1);
+    }
+    .input_sub{
+        margin-right: 0px;
+    }
+    .sub_btn{
+        margin-top: 10px;
+    }
+    .logos{
+        flex-direction: column;
+    }
+    .logos img:last-of-type{
+        margin-top: 60px;
+    }
+    .sub_btns{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        margin-top: 168.75px;
+        margin-bottom: 70.63px;
+    }
+    .f1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Company_desc p:first-of-type{
+        font-family: 'Poppins';
+        font-style: 500;
+        font-size: 39.71px;
+        line-height: 60px;
+        color: #181E4B;
+    }
+    .f1 p{
+        font-family: 'Poppins';
+        font-style: 500;
+        margin-bottom: 12px;
+    }
+    .Company_desc p:last-of-type{
+        font-size: 11.73px;
+        line-height: 15px;
+        width: 187px;
+    }
+    .f1 h3{
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .CCM p, .social p{
+        font-size: 16.24px;
+        line-height: 20.22px;
+    }
+    .CCM p:hover{
+        color: black;
+    }
+    .f1 img:hover{
+        transform: scale(1.10);
+    }
+    .f2{
+        display: flex;
+        justify-content: center;
+        margin-top: 75.65px;
+    }
+}
+@media screen and (max-width: 500px){
+    .traveller{
+        margin-left: -200px;
+        transform: scale(0.5);
+    }
+    .testimonialss {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 424px){
+    .txt_intro h3{
+        text-align: center;
+    }
+    .container {
+        margin-left: 10px;
+    }
+    .traveller{
+        margin-left: -250px;
+        transform: scale(0.4);
+    }
+    .img_booking img {
+        transform: scale(0.7);
+    }
+    .testimonials h2 {
+        text-align: center;
+    }
+    .testimonialss {
+        width: auto;
+        height: auto;
+    }
+}
